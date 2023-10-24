@@ -12,8 +12,7 @@ module.exports = function (tareas) {
           res.send("Elemento agregado con éxito");   
       }else{
           res.send("Elemento no valido tenga encuenta que el estado solo acepta valores booleanos y el id numericos");   
-      }
-                 
+      }               
         
         
       });
